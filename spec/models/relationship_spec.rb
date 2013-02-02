@@ -1,3 +1,15 @@
+# == Schema Information
+#
+# Table name: relationships
+#
+#  id          :integer          not null, primary key
+#  follower_id :string(255)
+#  integer     :string(255)
+#  followed_id :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
 require 'spec_helper'
 
 describe Relationship do
